@@ -1,0 +1,17 @@
+dash==1.8.0
+dash-core-components==1.7.0
+dash-html-components==1.0.2
+dash-renderer==1.2.3
+dash-table==4.6.0
+decorator==4.3.0
+Flask==1.0.2
+Flask-Compress==1.4.0
+futures==2.1.4
+imagesize==1.1.0
+ipython==5.1.0
+ipython-genutils==0.2.0
+matplotlib==2.0.0
+more-itertools==4.3.0
+nbformat==4.4.0
+plotly==2.5.1
+
