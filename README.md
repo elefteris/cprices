@@ -1,4 +1,4 @@
-# The core pipeline
+# The consumer prices pipeline
 
 Thi repo contains an early version of a pipeline written in Pyspark that was used to produce consumer price indices using alternative data sources such as scanner data and web-scraped data. An overview of the system has been given in this [publication](https://www.ons.gov.uk/economy/inflationandpriceindices/articles/usingalternativedatasourcesinconsumerpriceindices/may2019).
 
@@ -19,7 +19,7 @@ This pipeline:
 * can run multiple configuration scenarios. This is possible with the use of a number of different config files
 * stores data intermediate and final outputs in hdfs to feed into the analysis pipeline
 
-# Use of config files
+### Use of config files
 
 The config folder has:
 * a generic config file with:
