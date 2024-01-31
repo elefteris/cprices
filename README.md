@@ -1,5 +1,10 @@
 # The core pipeline
 
+Thi repo contains an early version of a pipeline written in Pyspark that was used to produce consumer price indices using alternative data sources such as scanner data and web-scraped data. An overview of the system has been given in the following publication:
+
+https://www.ons.gov.uk/economy/inflationandpriceindices/articles/usingalternativedatasourcesinconsumerpriceindices/may2019
+
+This pipeline:
 * receives the staged data prepared by the validation_staged pipeline
 * can handle multiple:
     - items
